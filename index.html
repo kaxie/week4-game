@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div id="biggestSection">
+        <div id="header" class="row"> <h2>CrystalsCollector!</h2></div>
+        <div id="startDiv"><button id="start">start the game</button></div>
+        <div id="intro" class="row">
+            <p>You will be given a random number at the start of the game</p>
+            <p>There are four crystals below</p>
+            <p>you win the game by matching total score to random number. YOu lost the game if your total score goes above the random number</p>
+            <p>THe value of each crystal is hidden from you until you click on it</p>
+            <p>Each time when the game starts, the game will change the values of each crystal.</p>
+        </div>
+        <div id="scoreDiv" class="row">
+            <div class="col"> <span id="reach">0</span></div>
+            
+        </div>
+        <div id="diamondImg">
+            <ul>
+                <li><button id="dia1"><img class="diamonds" src="images/Diamond.jpg" alt=""></button></li>
+                <li><button id="dia2"><img class="diamonds" src="images/diamond1.jpg" alt=""></button></li>
+                <li><button id="dia3"><img class="diamonds" src="images/diamond2.jpg" alt=""></button></li>
+                <li><button id="dia4"><img class="diamonds" src="images/diamond3.png" alt=""></button></li>    
+            </ul>
+        </div>
+        <div id="scoreBoard">
+            <div id="scoreHeader"><h1>your score is</h1></div>
+            <div id="score"><span></span></div>
+        </div>
+    </div>
+    <div id="winloss" >
+        <div class="row"><p>wins: </p><span id="winCount">0</span></div>
+        <div class="row"><p>losses: </p><span id="lossCount">0</span></div>
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="javascript/game.js"></script>
+</body>
+</html>

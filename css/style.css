@@ -1,0 +1,68 @@
+#biggestSection{
+    background-color: rgb(120, 195, 230);
+    width: 60%;
+    margin: auto;
+}
+
+#intro{
+    background-color: blanchedalmond; 
+    width: 80%;
+    margin: auto;
+}
+
+#header{
+    width: 50%;
+    margin: auto;
+    background-color: orangered;
+}
+
+#scoreDiv{
+    width: 60%;
+    margin:auto;
+    height: 100px;
+    background-color: olivedrab;
+}
+
+#startDiv{
+    text-align: center;
+}
+
+.diamonds{
+    height: 100px;
+    width: 100px;
+}
+
+ul li{
+    display: inline-block;
+    text-align: center;
+}
+
+#diamondImg{
+    margin: auto;
+    margin-left: 105px;
+}
+
+#scoreHeader{
+    clear: both;
+    text-align: center;
+}
+
+#score{
+    background-color: olive;
+    height: 50px;
+    font-size: 39px;
+}
+
+#reach{
+    font-size: 45px;
+}
+
+#winloss{
+    position: absolute;
+    left: 100px;
+    top: 350px;
+    background-color:rgb(230, 120, 230);
+    height: 120px;
+    width: 80px;
+    text-align: center;
+}
